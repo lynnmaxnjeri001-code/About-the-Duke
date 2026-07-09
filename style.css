@@ -505,3 +505,29 @@ transform:translateY(-15px);
 }
 
 }
+@keyframes rainbowGlow {
+    0% {
+        color: #FFD700;
+        text-shadow: 0 0 20px #FFD700;
+    }
+    20% {
+        color: #ff3b3b;
+        text-shadow: 0 0 20px #ff3b3b;
+    }
+    40% {
+        color: #00ff88;
+        text-shadow: 0 0 20px #00ff88;
+    }
+    60% {
+        color: #00bfff;
+        text-shadow: 0 0 20px #00bfff;
+    }
+    80% {
+        color: #b026ff;
+        text-shadow: 0 0 20px #b026ff;
+    }
+    100% {
+        color: #FFD700;
+        text-shadow: 0 0 20px #FFD700;
+    }
+}
