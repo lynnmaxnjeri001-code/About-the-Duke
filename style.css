@@ -531,3 +531,29 @@ transform:translateY(-15px);
         text-shadow: 0 0 20px #FFD700;
     }
 }
+@keyframes borderLoop{
+    0%{
+        border-color:#FFD700;
+        box-shadow:0 0 20px #FFD700;
+    }
+
+    25%{
+        border-color:#ff3b3b;
+        box-shadow:0 0 20px #ff3b3b;
+    }
+
+    50%{
+        border-color:#00ff88;
+        box-shadow:0 0 20px #00ff88;
+    }
+
+    75%{
+        border-color:#00bfff;
+        box-shadow:0 0 20px #00bfff;
+    }
+
+    100%{
+        border-color:#FFD700;
+        box-shadow:0 0 20px #FFD700;
+    }
+}
