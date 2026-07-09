@@ -392,3 +392,116 @@ header {
     display: block;
     margin: 0 auto;
 }
+/* Cinematic Intro */
+
+.intro{
+
+text-align:center;
+
+animation:zoomIn 1.5s ease;
+
+}
+
+.crown{
+
+font-size:80px;
+
+animation:floatCrown 2s infinite;
+
+}
+
+.intro h1{
+
+font-size:65px;
+
+color:gold;
+
+letter-spacing:6px;
+
+margin:15px 0;
+
+text-shadow:0 0 25px gold;
+
+}
+
+.intro h3{
+
+color:white;
+
+font-weight:300;
+
+margin:10px 0;
+
+}
+
+.loading-bar{
+
+width:320px;
+
+height:10px;
+
+background:#222;
+
+border-radius:20px;
+
+margin:35px auto;
+
+overflow:hidden;
+
+}
+
+.loading-fill{
+
+height:100%;
+
+width:0%;
+
+background:gold;
+
+animation:loading 2s forwards;
+
+}
+
+@keyframes loading{
+
+0%{width:0%;}
+
+100%{width:100%;}
+
+}
+
+@keyframes zoomIn{
+
+0%{
+
+transform:scale(.6);
+
+opacity:0;
+
+}
+
+100%{
+
+transform:scale(1);
+
+opacity:1;
+
+}
+
+}
+
+@keyframes floatCrown{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+}
