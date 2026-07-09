@@ -137,6 +137,7 @@ section h2{
     border:1px solid #333;
     line-height:2;
     box-shadow:0 0 25px rgba(255,215,0,.15);
+    .goals li{
 }
 
 /* Gallery */
@@ -176,6 +177,7 @@ section h2{
     text-align:center;
     transition:.4s;
     border:1px solid #333;
+    animation:borderLoop 6s linear infinite;
 }
 
 .card:hover{
@@ -366,7 +368,7 @@ height:300px;
 object-fit:cover;
 border-radius:50%;
 border:6px solid gold;
-box-shadow:0 0 40px gold;
+animation:borderLoop 6s linear infinite;
 transition:.4s;
 }
 
