@@ -37,9 +37,9 @@ nav{
 }
 
 .logo{
-    color:gold;
     font-size:30px;
     font-weight:700;
+    animation: rainbowGlow 8s linear infinite;
 }
 
 nav ul{
@@ -80,8 +80,8 @@ nav ul li a:hover{
 
 .hero h2{
     font-size:55px;
-    color:gold;
     margin:15px 0;
+    animation: rainbowGlow 8s linear infinite;
 }
 
 .hero h3{
