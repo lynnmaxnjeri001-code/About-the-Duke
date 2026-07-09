@@ -137,6 +137,8 @@ section h2{
     border:1px solid #333;
     line-height:2;
     box-shadow:0 0 25px rgba(255,215,0,.15);
+    border:2px solid red;
+animation:rgbBorder 5s linear infinite;
     .goals li{
 }
 
@@ -178,6 +180,8 @@ section h2{
     transition:.4s;
     border:1px solid #333;
     animation:borderLoop 6s linear infinite;
+    border:2px solid red;
+animation:rgbBorder 5s linear infinite;
 }
 
 .card:hover{
@@ -367,8 +371,8 @@ width:300px;
 height:300px;
 object-fit:cover;
 border-radius:50%;
-border:6px solid gold;
-animation:borderLoop 6s linear infinite;
+border:6px solid red;
+animation:rgbBorder 5s linear infinite;
 transition:.4s;
 }
 
@@ -559,3 +563,33 @@ transform:translateY(-15px);
         box-shadow:0 0 20px #FFD700;
     }
 }
+    @keyframes rgbBorder{
+    0%{
+        border-color:#ff0000;
+        box-shadow:0 0 20px #ff0000;
+    }
+    16%{
+        border-color:#ff8800;
+        box-shadow:0 0 20px #ff8800;
+    }
+    33%{
+        border-color:#ffff00;
+        box-shadow:0 0 20px #ffff00;
+    }
+    50%{
+        border-color:#00ff00;
+        box-shadow:0 0 20px #00ff00;
+    }
+    66%{
+        border-color:#00ffff;
+        box-shadow:0 0 20px #00ffff;
+    }
+    83%{
+        border-color:#0000ff;
+        box-shadow:0 0 20px #0000ff;
+    }
+    100%{
+        border-color:#ff00ff;
+        box-shadow:0 0 20px #ff00ff;
+    }
+    }
